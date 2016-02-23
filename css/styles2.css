@@ -22,6 +22,9 @@ nav a {
 nav a:hover {
     color: #292c34;
 }
+.hamburger {
+    display: none;
+}
 
 /***** HEADER *****/
 
@@ -152,8 +155,8 @@ h1 {
 /***** BLOG *****/
 
 .blog {
-    height: 1220px;
     background-color: #28ea89;
+    padding: 80px 0;
     text-align: center;
 }
 .blog h3 {
@@ -161,7 +164,6 @@ h1 {
     font-size: 50px;
     color: #2a2d3c;
     margin-top: 0;
-    padding-top: 80px;
     padding-bottom: 22px;
     text-align: center;
 }
@@ -220,6 +222,7 @@ h1 {
 .purchase h3 {
     font-size: 50px;
     font-weight: 400;
+    line-height: 65px;
     color: #ffffff;
     padding-bottom: 38px;
 }
@@ -283,6 +286,9 @@ h1 {
 }
 .contact span:hover {
 	color: #292c34;
+}
+.contactRight a:hover {
+    color: #28ea89;
 }
 
 /***** FOOTER *****/
@@ -369,6 +375,31 @@ body {
     .blogBlock a {
         font-size: 18px;
     }
+    .contact {
+        padding: 50px 3%;
+    }
+    .contactLeft, .contactRight {
+        display: block;
+    }
+    .contactLeft {
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    .contactLeft p {
+        padding-right: 0;
+    }
+    .contactRight {
+        text-align: center;
+        float: none;
+    }
+    .contactRight ul {
+        padding-bottom: 50px;
+    }
+    .contactRight a {
+        display: inline-block;
+        padding-bottom: 0;
+    }
 }
 
 @media all and (max-width: 770px) {
@@ -404,9 +435,6 @@ body {
     .blogBlock:nth-of-type(1) {
         margin-bottom: 85px;
     }
-    .plus img {
-        padding-bottom: 85px;
-    }
     .video {
         height: auto;
         padding: 100px 0 115px 0;
@@ -427,14 +455,68 @@ body {
     footer a {
         float: none;
     }
+}
 
+@media all and (max-width: 605px) {
+    .menu {
+        display: none;
+    }
+    nav a {
+        margin-right: -5px;
+    }
+    .hamburger {
+        display: inline-block;
+        float: right;
+    }
+    .hamburger img {
+        width: 35px;
+    }
 }
 
 @media all and (max-width: 400px) {
+    .col-sm-12 {
+        padding-left: 0;
+    }
+    nav img {
+        width: 200px;
+    }
+    .hamburger {
+        padding-right: 2%;
+    }
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+        padding-top: 75px;
+        padding-bottom: 125px;
+    }
+    .callTo img {
+        padding-bottom: 75px;
+    }
+    .info {
+        padding: 35px 3% 55px 3%;
+    }
+    .info h5 {
+        padding: 0;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    .video h3 {
+        font-size: 40px;
+    }
     .blogBlock h4 {
         font-size: 20px;
         padding-top: 25px;
         padding-bottom: 15px;
+    }
+    .blog h3 {
+        font-size: 30px;
+    }
+    .blog h5 {
+        font-size: 22px;
+        padding-bottom: 40px;
+    }
+    .blogBlock:nth-of-type(1) {
+        margin-bottom: 50px;
     }
     .blogBlock p {
         font-size: 15px;
@@ -442,5 +524,41 @@ body {
     }
     .blogBlock a {
         font-size: 14px;
+    }
+    .plus img {
+        padding-top: 50px;
+    }
+    .purchase {
+        padding: 80px 0;
+    }
+    .purchase h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .purchase h5 {
+        font-size: 22px;
+        padding: 0 5% 60px 5%;
+    }
+    .purchase a {
+        margin: 45px 0;
+    }
+    .contactLeft img {
+        padding-bottom: 50px;
+        width: 200px;
+    }
+    .contactLeft p {
+        font-size: 22px;
+        line-height: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contactRight a {
+        margin: 0 15px;
+    }
+    .contactRight ul {
+        padding-bottom: 30px;
+    }
+    .contactRight a {
+        padding-bottom: 20px;
     }
 }
