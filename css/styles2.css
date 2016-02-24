@@ -228,6 +228,7 @@ h1 {
 }
 .purchase a {
     margin: 0 29px;
+    display: inline-block;
 }
 .purchase a:hover {
 	color: #28ea89;
@@ -425,6 +426,9 @@ body {
     .desk {
         display: none;
     }
+    .purchase a {
+        margin: 0 15px;
+    }
     .blog {
         height: auto;
     }
@@ -529,7 +533,7 @@ body {
         padding-top: 50px;
     }
     .purchase {
-        padding: 80px 0;
+        padding: 80px 3%;
     }
     .purchase h3 {
         font-size: 30px;
@@ -537,10 +541,14 @@ body {
     }
     .purchase h5 {
         font-size: 22px;
-        padding: 0 5% 60px 5%;
+        padding: 0 5% 40px 5%;
     }
     .purchase a {
-        margin: 45px 0;
+        margin: 15px 0;
+    }
+    .purchase a:nth-of-type(2) {
+        padding: 18px 50px;
+        margin-bottom: 0;
     }
     .contactLeft img {
         padding-bottom: 50px;
