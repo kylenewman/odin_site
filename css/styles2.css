@@ -2,571 +2,571 @@
 /***** NAVIGATION *****/
 
 nav {
-    height: 110px;
-    line-height: 110px;
-    text-align: left;
+  height: 110px;
+  line-height: 110px;
+  text-align: left;
 }
 nav img {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 nav a {
-	display: inline-block;
-    font-size: 26px;
-    font-weight: 300;
-    color: #ffffff;
-    vertical-align: middle;
-    margin: 0 33px;
-    text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 300;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0 33px;
+  text-decoration: none;
 }
 nav a:hover {
-    color: #292c34;
+  color: #292c34;
 }
 .hamburger {
-    display: none;
+  display: none;
 }
 
 /***** HEADER *****/
 
 .banner {
-    background-image: url("../img/header_bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
+  background-image: url("../img/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
 }
 h1 {
-    font-weight: 300;
-    font-size: 64px;
-    color: #ffffff;
-    padding-top: 320px;
-    padding-bottom: 160px;
-    line-height: 90px;
-    text-align: center;
+  font-weight: 300;
+  font-size: 64px;
+  color: #ffffff;
+  padding-top: 320px;
+  padding-bottom: 160px;
+  line-height: 90px;
+  text-align: center;
 }
 .callTo img {
-	padding-bottom: 125px;
+  padding-bottom: 125px;
 }
 
 /***** WHAT WE DO *****/
 
 .iconsBlock {
-	text-align: center;
-	height: 400px;
-	background-color: #345363;
+  text-align: center;
+  height: 400px;
+  background-color: #345363;
 }
 .iconsBlock:nth-of-type(2) {
-    background-color: #2a2d3c;
+  background-color: #2a2d3c;
 }
 .iconsBlock:nth-of-type(3) {
-    background-color: #555f5e;
+  background-color: #555f5e;
 }
 .iconsBlock img {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 .iconsBlock h4 {
-    font-size: 30px;
-    font-weight: 300;
-    color: #ffffff;
-    padding-top: 99px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 99px;
 }
 .iconsBlock p {
-    font-size: 22px;
-    font-weight: 700;
-    color: #28ea89;
-    padding-top: 25px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #28ea89;
+  padding-top: 25px;
 }
 
 /***** TWO COLUMN *****/
 
 .desk {
-	background-image: url("../img/desk.jpg");
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 540px;
+  background-image: url("../img/desk.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 540px;
 }
 .info {
-    margin-left: 175px;
-    padding: 50px 30px 50px 0;
+  margin-left: 175px;
+  padding: 50px 30px 50px 0;
 }
 .info h5 {
-    font-size: 30px;
-    font-weight: 400;
-    color: #999999;
-    padding-bottom: 24px;
-    padding-right: 18%;
-    line-height: 40px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #999999;
+  padding-bottom: 24px;
+  padding-right: 18%;
+  line-height: 40px;
 }
 .info p {
-    margin-left: 25px;
-    padding-bottom: 28px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33px;
-    vertical-align: middle;
-    color: #919b9f;
+  margin-left: 25px;
+  padding-bottom: 28px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  vertical-align: middle;
+  color: #919b9f;
 }
 .info p:before {
-	content: url("../img/check_icon.png");
-	padding-right: 15px;
+  content: url("../img/check_icon.png");
+  padding-right: 15px;
 }
 .info a, .video a, .blogBlock a, .purchase a {
-    font-size: 24px;
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #28ea89;
-    padding: 18px 44px;
-    border-radius: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #28ea89;
+  padding: 18px 44px;
+  border-radius: 15px;
 }
 .info a:hover {
-	background-color: #2a2d3c;
-	color: #28ea89;
+  background-color: #2a2d3c;
+  color: #28ea89;
 }
 .button {
-    margin-top: 38px;
+  margin-top: 38px;
 }
 
 /***** VIDEO *****/
 
 .video {
-    height: 500px;
-    text-align: center;
-    vertical-align: top;
-    background-image: url("../img/video_bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
+  height: 500px;
+  text-align: center;
+  vertical-align: top;
+  background-image: url("../img/video_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 .video h3 {
-    font-size: 50px;
-    font-weight: 700;
-    color: #ffffff;
-    padding-top: 180px;
-    padding-bottom: 62px;
-    text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 180px;
+  padding-bottom: 62px;
+  text-transform: uppercase;
 }
 .video a:hover {
-	background-color: #ffffff;
-	color: #28ea89;
+  background-color: #ffffff;
+  color: #28ea89;
 }
 
 /***** BLOG *****/
 
 .blog {
-    background-color: #28ea89;
-    padding: 80px 0;
-    text-align: center;
+  background-color: #28ea89;
+  padding: 80px 0;
+  text-align: center;
 }
 .blog h3 {
-    font-weight: 400;
-    font-size: 50px;
-    color: #2a2d3c;
-    margin-top: 0;
-    padding-bottom: 22px;
-    text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  color: #2a2d3c;
+  margin-top: 0;
+  padding-bottom: 22px;
+  text-align: center;
 }
 .blog h5, .purchase h5 {
-    font-size: 30px;
-    font-weight: 400;
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 94px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 94px;
 }
 .blogBlock {
-    width: 46%;
-    height: 710px;
-    background-color: #ffffff;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 2%;
-    text-align: left;
+  width: 46%;
+  height: 710px;
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 2%;
+  text-align: left;
 }
 .blogBlock h4 {
-    font-weight: 400;
-    font-size: 30px;
-    color: #2a2d3c;
-    padding: 51px 5px 30px 32px;  
+  font-weight: 400;
+  font-size: 30px;
+  color: #2a2d3c;
+  padding: 51px 5px 30px 32px;  
 }
 .blogBlock p {
-    font-weight: 400;
-    font-size: 24px;
-    color: #777777;
-    line-height: 45px;
-    padding: 0 32px 61px 32px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #777777;
+  line-height: 45px;
+  padding: 0 32px 61px 32px;
 }
 .blogBlock a {
-    margin-left: 32px;
-    color: #28ea89;
-    background-color: #2a2d3c;
+  margin-left: 32px;
+  color: #28ea89;
+  background-color: #2a2d3c;
 }
 .blogBlock a:hover {
-	color: #2a2d3c;
-	background-color: #28ea89;
+  color: #2a2d3c;
+  background-color: #28ea89;
 }
 .blogBlock img {
-	width: 100%;
+  width: 100%;
 }
 .plus img {
-	padding-top: 77px;
+  padding-top: 77px;
 }
 
 /***** PURCHASE *****/
 
 .purchase {
-    background-color: #2a2d3c;
-    text-align: center;
-    padding: 158px 0;
+  background-color: #2a2d3c;
+  text-align: center;
+  padding: 158px 0;
 }
 .purchase h3 {
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 65px;
-    color: #ffffff;
-    padding-bottom: 38px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 65px;
+  color: #ffffff;
+  padding-bottom: 38px;
 }
 .purchase a {
-    margin: 0 29px;
-    display: inline-block;
+  margin: 0 29px;
+  display: inline-block;
 }
 .purchase a:hover {
-	color: #28ea89;
-    background-color: #ffffff
+  color: #28ea89;
+  background-color: #ffffff
 }
 .purchase a:nth-of-type(2) {
-    color: #28ea89;
-    background-color: #ffffff;
+  color: #28ea89;
+  background-color: #ffffff;
 }
 .purchase a:hover:nth-of-type(2) {
-    color: #ffffff;
-    background-color: #28ea89;
+  color: #ffffff;
+  background-color: #28ea89;
 }
 
 /***** CONTACT *****/
 
 .contact {
-    height: auto;
-    padding: 73px 0;
+  height: auto;
+  padding: 73px 0;
 }
 .contactLeft, .contactRight {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 .contactLeft img {
-    padding-bottom: 55px;
+  padding-bottom: 55px;
 }
 .contactLeft p {
-    font-size: 24px;
-    font-weight: 400;
-    color: #777777;
-    line-height: 50px;
-    padding-right: 41px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #777777;
+  line-height: 50px;
+  padding-right: 41px;
 }
 .contactLeft span {
-    color: #28ea89;
+  color: #28ea89;
 }
 .contactRight {
-    float: right;
+  float: right;
 }
 .contactRight ul {
-    padding-bottom: 52px;
+  padding-bottom: 52px;
 }
 .contactRight a {
-    display: block;
-    margin: 0 29px;
-    text-align: left;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 24px;
-    color: #2a2d3c;
-    padding-bottom: 34px;
+  display: block;
+  margin: 0 29px;
+  text-align: left;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2a2d3c;
+  padding-bottom: 34px;
 }
 .contactRight ul li{
-    display: inline-block;
+  display: inline-block;
 }
 .contact span:hover {
-	color: #292c34;
+  color: #292c34;
 }
 .contactRight a:hover {
-    color: #28ea89;
+  color: #28ea89;
 }
 
 /***** FOOTER *****/
 
 footer {
-    height: 194px;
-    background-color: #292c34;
-    line-height: 194px;
+  height: 194px;
+  background-color: #292c34;
+  line-height: 194px;
 }
 footer p, footer a {
-    font-weight: 400;
-    font-size: 24px;
-    color: #ffffff;
-    display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  display: inline-block;
 }
 footer a {
-    color: #28ea89;
-    text-decoration: none;
-    float: right;
+  color: #28ea89;
+  text-decoration: none;
+  float: right;
 }2
 footer a:hover {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 
 /***** UNIVERSAL *****/
 
 body {
-    font-family: 'comfortaa', sans-serif;
+  font-family: 'comfortaa', sans-serif;
 }
 .left {
-    float: left;
+  float: left;
 }
 .right {
-    float: right;
+  float: right;
 }
 
 /***** RESPONSIVE *****/
 
 @media all and (min-width: 1300px) {
-    .info {
-        padding-top: 75px;
-        padding-left: 28%;
-        margin-left: 0; 
-    }
+  .info {
+      padding-top: 75px;
+      padding-left: 28%;
+      margin-left: 0; 
+  }
 }
 @media all and (max-width: 1170px) {
-    .info {
-        margin-left: 20%;
-    }
-    .contactRight a {
-        /*margin: 0 20px;*/
-    }
+  .info {
+      margin-left: 20%;
+  }
+  .contactRight a {
+      /*margin: 0 20px;*/
+  }
 }
 
 @media all and (max-width: 992px) {
-    nav a {
-        font-size: 26px;
-        margin: 0 20px;
-    }
-    h1 {
-        padding-top: 240px;
-    }
-    .info a, .video a, .blogBlock a, .purchase a {
-        font-size: 18px;
-    }
-    .info {
-        margin-left: 10%;
-    }
-    .info h5 {
-        padding-right: 3%
-    }
-    .blogBlock {
-        height: auto;
-        padding-bottom: 51px;
-    }
-    .blogBlock h4 {
-        font-size: 24px;
-    }
-    .blogBlock p {
-        font-size: 18px;
-        line-height: 35px;
-    }
-    .blogBlock a {
-        font-size: 18px;
-    }
-    .contact {
-        padding: 50px 3%;
-    }
-    .contactLeft, .contactRight {
-        display: block;
-    }
-    .contactLeft {
-        text-align: center;
-        padding-right: 0;
-        padding-bottom: 50px;
-    }
-    .contactLeft p {
-        padding-right: 0;
-    }
-    .contactRight {
-        text-align: center;
-        float: none;
-    }
-    .contactRight ul {
-        padding-bottom: 50px;
-    }
-    .contactRight a {
-        display: inline-block;
-        padding-bottom: 0;
-    }
+  nav a {
+      font-size: 26px;
+      margin: 0 20px;
+  }
+  h1 {
+      padding-top: 240px;
+  }
+  .info a, .video a, .blogBlock a, .purchase a {
+      font-size: 18px;
+  }
+  .info {
+      margin-left: 10%;
+  }
+  .info h5 {
+      padding-right: 3%
+  }
+  .blogBlock {
+      height: auto;
+      padding-bottom: 51px;
+  }
+  .blogBlock h4 {
+      font-size: 24px;
+  }
+  .blogBlock p {
+      font-size: 18px;
+      line-height: 35px;
+  }
+  .blogBlock a {
+      font-size: 18px;
+  }
+  .contact {
+      padding: 50px 3%;
+  }
+  .contactLeft, .contactRight {
+      display: block;
+  }
+  .contactLeft {
+      text-align: center;
+      padding-right: 0;
+      padding-bottom: 50px;
+  }
+  .contactLeft p {
+      padding-right: 0;
+  }
+  .contactRight {
+      text-align: center;
+      float: none;
+  }
+  .contactRight ul {
+      padding-bottom: 50px;
+  }
+  .contactRight a {
+      display: inline-block;
+      padding-bottom: 0;
+  }
 }
 
 @media all and (max-width: 770px) {
-	nav a {
-		font-size: 22px;
-		margin: 0 15px;
-	}
-	h1 {
-		font-size: 50px;
-		line-height: 70px;
-		padding-top: 160px;
-	}
-    .info {
-        margin-left: 0;
-        text-align: center;
-    }
-    .info h5 {
-        padding: 0 12% 25px 12%;
-    }
-    .info p {
-        margin-left: 0;
-    }
-    .desk {
-        display: none;
-    }
-    .purchase a {
-        margin: 0 15px;
-    }
-    .blog {
-        height: auto;
-    }
-    .blogBlock {
-        width: 85%;
-        margin: 0 auto;
-    }
-    .blogBlock:nth-of-type(1) {
-        margin-bottom: 85px;
-    }
-    .video {
-        height: auto;
-        padding: 100px 0 115px 0;
-    }
-    .video h3 {
-        padding-top: 0;
-    }
-    footer {
-        height: auto;
-        text-align: center;
-        line-height: 45px;
-        padding: 45px 0;
-    }
-    footer a, footer p {
-        font-size: 18px;
-        display: block;
-    }
-    footer a {
-        float: none;
-    }
+  nav a {
+      font-size: 22px;
+      margin: 0 15px;
+  }
+  h1 {
+      font-size: 50px;
+      line-height: 70px;
+      padding-top: 160px;
+  }
+  .info {
+      margin-left: 0;
+      text-align: center;
+  }
+  .info h5 {
+      padding: 0 12% 25px 12%;
+  }
+  .info p {
+      margin-left: 0;
+  }
+  .desk {
+      display: none;
+  }
+  .purchase a {
+      margin: 0 15px;
+  }
+  .blog {
+      height: auto;
+  }
+  .blogBlock {
+      width: 85%;
+      margin: 0 auto;
+  }
+  .blogBlock:nth-of-type(1) {
+      margin-bottom: 85px;
+  }
+  .video {
+      height: auto;
+      padding: 100px 0 115px 0;
+  }
+  .video h3 {
+      padding-top: 0;
+  }
+  footer {
+      height: auto;
+      text-align: center;
+      line-height: 45px;
+      padding: 45px 0;
+  }
+  footer a, footer p {
+      font-size: 18px;
+      display: block;
+  }
+  footer a {
+      float: none;
+  }
 }
 
 @media all and (max-width: 605px) {
-    .menu {
-        display: none;
-    }
-    nav a {
-        margin-right: -5px;
-    }
-    .hamburger {
-        display: inline-block;
-        float: right;
-    }
-    .hamburger img {
-        width: 35px;
-    }
+  .menu {
+      display: none;
+  }
+  nav a {
+      margin-right: -5px;
+  }
+  .hamburger {
+      display: inline-block;
+      float: right;
+  }
+  .hamburger img {
+      width: 35px;
+  }
 }
 
 @media all and (max-width: 400px) {
-    .col-sm-12 {
-        padding-left: 0;
-    }
-    nav img {
-        width: 200px;
-    }
-    .hamburger {
-        padding-right: 2%;
-    }
-    h1 {
-        font-size: 35px;
-        line-height: 45px;
-        padding-top: 75px;
-        padding-bottom: 125px;
-    }
-    .callTo img {
-        padding-bottom: 75px;
-    }
-    .info {
-        padding: 35px 3% 55px 3%;
-    }
-    .info h5 {
-        padding: 0;
-        padding-bottom: 25px;
-        text-align: center;
-    }
-    .video h3 {
-        font-size: 40px;
-    }
-    .blogBlock h4 {
-        font-size: 20px;
-        padding-top: 25px;
-        padding-bottom: 15px;
-    }
-    .blog h3 {
-        font-size: 30px;
-    }
-    .blog h5 {
-        font-size: 22px;
-        padding-bottom: 40px;
-    }
-    .blogBlock:nth-of-type(1) {
-        margin-bottom: 50px;
-    }
-    .blogBlock p {
-        font-size: 15px;
-        line-height: 25px;
-    }
-    .blogBlock a {
-        font-size: 14px;
-    }
-    .plus img {
-        padding-top: 50px;
-    }
-    .purchase {
-        padding: 80px 3%;
-    }
-    .purchase h3 {
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .purchase h5 {
-        font-size: 22px;
-        padding: 0 5% 40px 5%;
-    }
-    .purchase a {
-        margin: 15px 0;
-    }
-    .purchase a:nth-of-type(2) {
-        padding: 18px 50px;
-        margin-bottom: 0;
-    }
-    .contactLeft img {
-        padding-bottom: 50px;
-        width: 200px;
-    }
-    .contactLeft p {
-        font-size: 22px;
-        line-height: 30px;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .contactRight a {
-        margin: 0 15px;
-    }
-    .contactRight ul {
-        padding-bottom: 30px;
-    }
-    .contactRight a {
-        padding-bottom: 20px;
-    }
+  .col-sm-12 {
+      padding-left: 0;
+  }
+  nav img {
+      width: 200px;
+  }
+  .hamburger {
+      padding-right: 2%;
+  }
+  h1 {
+      font-size: 35px;
+      line-height: 45px;
+      padding-top: 75px;
+      padding-bottom: 125px;
+  }
+  .callTo img {
+      padding-bottom: 75px;
+  }
+  .info {
+      padding: 35px 3% 55px 3%;
+  }
+  .info h5 {
+      padding: 0;
+      padding-bottom: 25px;
+      text-align: center;
+  }
+  .video h3 {
+      font-size: 40px;
+  }
+  .blogBlock h4 {
+      font-size: 20px;
+      padding-top: 25px;
+      padding-bottom: 15px;
+  }
+  .blog h3 {
+      font-size: 30px;
+  }
+  .blog h5 {
+      font-size: 22px;
+      padding-bottom: 40px;
+  }
+  .blogBlock:nth-of-type(1) {
+      margin-bottom: 50px;
+  }
+  .blogBlock p {
+      font-size: 15px;
+      line-height: 25px;
+  }
+  .blogBlock a {
+      font-size: 14px;
+  }
+  .plus img {
+      padding-top: 50px;
+  }
+  .purchase {
+      padding: 80px 3%;
+  }
+  .purchase h3 {
+      font-size: 30px;
+      line-height: 35px;
+  }
+  .purchase h5 {
+      font-size: 22px;
+      padding: 0 5% 40px 5%;
+  }
+  .purchase a {
+      margin: 15px 0;
+  }
+  .purchase a:nth-of-type(2) {
+      padding: 18px 50px;
+      margin-bottom: 0;
+  }
+  .contactLeft img {
+      padding-bottom: 50px;
+      width: 200px;
+  }
+  .contactLeft p {
+      font-size: 22px;
+      line-height: 30px;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  .contactRight a {
+      margin: 0 15px;
+  }
+  .contactRight ul {
+      padding-bottom: 30px;
+  }
+  .contactRight a {
+      padding-bottom: 20px;
+  }
 }
